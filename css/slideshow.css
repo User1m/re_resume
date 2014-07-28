@@ -52,11 +52,11 @@
 	Slid Show image part
 -----------------------------------------*/ 
 .cb-slideshow li:nth-child(1) span {
-	 background-image: url(../images/1.jpg);
+	 background-image: url(../images/ds1.jpg);
 	 
 }
 .cb-slideshow li:nth-child(2) span {
-	 background-image: url(../images/2.jpg);
+	 background-image: url(../images/ds2.jpg);
 	 -webkit-animation-delay: 15s;
 	 -moz-animation-delay: 15s;
 	 -o-animation-delay: 15s;
@@ -64,7 +64,7 @@
 	 animation-delay: 15s;
 }
 .cb-slideshow li:nth-child(3) span {
-	 background-image: url(../images/3.jpg);
+	 background-image: url(../images/ds3.jpg);
 	 -webkit-animation-delay: 30s;
 	 -moz-animation-delay: 30s;
 	 -o-animation-delay: 30s;
