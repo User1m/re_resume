@@ -433,9 +433,11 @@ header{
 ------------------------------------------------------*/
 
 .aboutme{
-	background:#00bdbd;
+/*	background:#00bdbd;
+*/	background:#59C4C5;
 	color:#fff;
 	position:relative;
+	font-size: 50px;
 }
 .aboutme .container{
 	padding-top:85px ;
@@ -491,7 +493,7 @@ header{
 	color:#474d5d;
 }
 .technical h2{
-	color:#ff675f;
+	color:#59C4C5;
 }
 
 .technical .skillsArea{
@@ -567,7 +569,9 @@ header{
  8.	Work Experience Style
 ------------------------------------------------------*/
 .exprience{
-	background:#fff;
+/*	background:#fff;
+*/
+background: #FFC33C;
 }
 .exprience .container{
 	padding-top:85px ;
@@ -575,13 +579,24 @@ header{
 }
 
 .exprience h2{
-	color:#ff675f;
+/*	color:#ff675f;
+*/
+color:#00C8F8;
 }
 .exprience p{
 	color:#84868d;
 	/*font-size:13px;*/
 	line-height:18px;
 }
+
+.exprience a{
+	color:#84868d;
+}
+
+.exprience a:hover{
+	color:#00C8F8;
+}
+
 .exprience .heading p{
 	padding-bottom:41px;
 }
@@ -600,7 +615,8 @@ header{
 .workYear{
 	font-size:17px;
 	color:#fff;
-	background:#ff675f;
+/*	background:#ff675f;
+*/	background:#00C8F8;
 	text-align:center;
 	width:120px;
 	height:120px;
@@ -610,6 +626,18 @@ header{
     border-radius: 50%;
 }
 
+.eduYear{
+	font-size:17px;
+	color:#fff;
+	background:#ff675f;
+	text-align:center;
+	width:120px;
+	height:120px;
+	padding:40px 0 40px 0;
+	
+	-webkit-border-radius: 50%;
+    border-radius: 50%;
+}
 
 .arrowpart{
 	float:left;

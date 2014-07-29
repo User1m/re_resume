@@ -175,6 +175,39 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/ds1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.26919e+06,
+		"inputAbbreviatedPath": "\/images\/ds1.jpg",
+		"outputAbbreviatedPath": "\/images\/ds1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/ds2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.33144e+06,
+		"inputAbbreviatedPath": "\/images\/ds2.jpg",
+		"outputAbbreviatedPath": "\/images\/ds2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/ds3.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.13753e+06,
+		"inputAbbreviatedPath": "\/images\/ds3.jpg",
+		"outputAbbreviatedPath": "\/images\/ds3.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/left-arrow.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -439,6 +472,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/site\/bbc_695.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 40936,
+		"inputAbbreviatedPath": "\/images\/site\/bbc_695.jpg",
+		"outputAbbreviatedPath": "\/images\/site\/bbc_695.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/site\/bkground.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -600,6 +644,17 @@
 		"initialSize": 67421,
 		"inputAbbreviatedPath": "\/images\/site\/football460.jpg",
 		"outputAbbreviatedPath": "\/images\/site\/football460.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/site\/football_300.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 47484,
+		"inputAbbreviatedPath": "\/images\/site\/football_300.jpg",
+		"outputAbbreviatedPath": "\/images\/site\/football_300.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -802,6 +857,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/site\/swcbus.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 47113,
+		"inputAbbreviatedPath": "\/images\/site\/swcbus.jpg",
+		"outputAbbreviatedPath": "\/images\/site\/swcbus.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/site\/union.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -949,6 +1015,17 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/jquery.ui.widget.min.js",
 		"outputAbbreviatedPath": "\/js\/min\/jquery.ui.widget.min-ck.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/min\/jquery.easypiechart-ck.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/min\/jquery.easypiechart-ck.js",
+		"outputAbbreviatedPath": "\/js\/min\/min\/jquery.easypiechart-ck-ck.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
