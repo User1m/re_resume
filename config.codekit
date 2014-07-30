@@ -98,6 +98,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/4.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.02718e+06,
+		"inputAbbreviatedPath": "\/images\/4.jpg",
+		"outputAbbreviatedPath": "\/images\/4.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/5.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.52548e+06,
+		"inputAbbreviatedPath": "\/images\/5.jpg",
+		"outputAbbreviatedPath": "\/images\/5.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/arrow-left-light.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -428,28 +450,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/site\/4.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1.02718e+06,
-		"inputAbbreviatedPath": "\/images\/site\/4.jpg",
-		"outputAbbreviatedPath": "\/images\/site\/4.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/site\/5.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1.52548e+06,
-		"inputAbbreviatedPath": "\/images\/site\/5.jpg",
-		"outputAbbreviatedPath": "\/images\/site\/5.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/images\/site\/Airwaves.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -615,6 +615,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/site\/cwdg.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 15818,
+		"inputAbbreviatedPath": "\/images\/site\/cwdg.jpg",
+		"outputAbbreviatedPath": "\/images\/site\/cwdg.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/site\/football.jpeg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -677,17 +688,6 @@
 		"initialSize": 32736,
 		"inputAbbreviatedPath": "\/images\/site\/gems.jpg",
 		"outputAbbreviatedPath": "\/images\/site\/gems.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/site\/geyer.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 16963,
-		"inputAbbreviatedPath": "\/images\/site\/geyer.jpg",
-		"outputAbbreviatedPath": "\/images\/site\/geyer.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -842,6 +842,28 @@
 		"initialSize": 36258,
 		"inputAbbreviatedPath": "\/images\/site\/pebble.jpg",
 		"outputAbbreviatedPath": "\/images\/site\/pebble.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/site\/sphinx_256.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 36866,
+		"inputAbbreviatedPath": "\/images\/site\/sphinx_256.png",
+		"outputAbbreviatedPath": "\/images\/site\/sphinx_256.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/site\/sphinx_300.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8452,
+		"inputAbbreviatedPath": "\/images\/site\/sphinx_300.png",
+		"outputAbbreviatedPath": "\/images\/site\/sphinx_300.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

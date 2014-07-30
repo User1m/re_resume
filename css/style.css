@@ -626,17 +626,8 @@ color:#00C8F8;
     border-radius: 50%;
 }
 
-.eduYear{
-	font-size:17px;
-	color:#fff;
+.education .workYear{
 	background:#ff675f;
-	text-align:center;
-	width:120px;
-	height:120px;
-	padding:40px 0 40px 0;
-	
-	-webkit-border-radius: 50%;
-    border-radius: 50%;
 }
 
 .arrowpart{
