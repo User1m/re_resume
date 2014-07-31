@@ -2,9 +2,10 @@
 title: My humble blog
 email: mbembac@gmail.com
 description: "My blog where I talk about any and everything I find interesting."
-baseurl: "http://www.claudiusmbemba.com"
-url: "http://www.claudiusmbemba.com"
+baseurl: "http://www.claudiusmbemba.com/blog/_site"
+url: ""
 
 # Build settings
 markdown: kramdown
 permalink: pretty
+css: main.css
