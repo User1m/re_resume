@@ -2,7 +2,7 @@
 title: My humble blog
 email: mbembac@gmail.com
 description: "My blog where I talk about any and everything I find interesting."
-baseurl: ""
+baseurl: "http://www.claudiusmbemba.com"
 url: "http://www.claudiusmbemba.com"
 
 # Build settings
