@@ -1,0 +1,10 @@
+# Site settings
+title: My humble blog
+email: mbembac@gmail.com
+description: "My blog where I talk about any and everything I find interesting."
+baseurl: ""
+url: "http://www.claudiusmbemba.com"
+
+# Build settings
+markdown: kramdown
+permalink: pretty
