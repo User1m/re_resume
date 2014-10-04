@@ -7,7 +7,8 @@ header("Content-Type: application/json");
 
 /* API  */
 
-$order_num, $curr_num;
+$order_num;
+$curr_num;
 
 
 if(isset($_SESSION['store'])){
@@ -24,6 +25,8 @@ switch ($method) {
   case 'GET':
 
   if($_SESSION['store']){
+    global $order_num;
+
     $order_num = $_SESSION['store'];
     $_SESSION['store'] = $order_num;
   }else{
