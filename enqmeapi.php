@@ -7,7 +7,7 @@ header("Content-Type: application/json");
 
 /* API  */
 
-$order_num, $curr_num;
+$order_num; $curr_num;
 
 
 if(isset($_SESSION['store'])){
