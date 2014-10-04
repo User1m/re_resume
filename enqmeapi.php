@@ -34,7 +34,7 @@ switch ($method) {
   //store prev number
   $_SESSION['prev_num'] = $curr_num;
 
-  var_dump($curr_num);
+  // var_dump($curr_num);
 
   //get new number
   $curr_num = htmlentities($_POST['order_num']);
