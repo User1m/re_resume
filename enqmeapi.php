@@ -14,6 +14,7 @@ if(isset($_SESSION['store'])){
   $curr_num = $_SESSION['store'];
 }else{
   $curr_num = "1";
+  $_SESSION['store']= $curr_num;
 }
 
 $method = $_SERVER['REQUEST_METHOD'];
