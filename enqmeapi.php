@@ -25,6 +25,7 @@ switch ($method) {
   case 'GET':
   //get curr number from store & display
   $order_num = $curr_num;
+  $_SESSION['store'] = $curr_num;
   break;
 
   //post method
