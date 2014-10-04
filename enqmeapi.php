@@ -16,6 +16,8 @@ if(isset($_SESSION['curr_num'])){
 
 if(isset($_SESSION['prev_num'])){
   $prev_num = $_SESSION['prev_num'];
+}else{
+  $_SESSION['prev_num'] = "";
 }
 
 $method = $_SERVER['REQUEST_METHOD'];
@@ -25,7 +27,7 @@ switch ($method) {
   //get method
   case 'GET':
 
-  if(empty($curr_num)){
+  if(!empty($curr_num)){
     $order_num = $curr_num;
   }else{
     $order_num = "Null number";
