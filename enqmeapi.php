@@ -7,9 +7,6 @@ header("Content-Type: application/json");
 
 /* API  */
 
-$prev_num;
-$curr_num;
-
 if(isset($_SESSION['curr_num'])){
  $curr_num = $_SESSION['curr_num'];
 }else{
