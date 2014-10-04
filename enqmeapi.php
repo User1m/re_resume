@@ -10,34 +10,33 @@ header("Content-Type: application/json");
 $order_num; $curr_num;
 
 
+//get current number stored in 'store'
 if(isset($_SESSION['store'])){
   $curr_num = $_SESSION['store'];
 }else{
   $curr_num = "1";
-  $_SESSION['store']= $curr_num;
 }
 
 $method = $_SERVER['REQUEST_METHOD'];
 
 switch ($method) {
 
-  //get method
-  case 'GET':
+  // //get method
+  // case 'GET':
 
-  if($_SESSION['store']){
-    // global $order_num;
-    $order_num = $_SESSION['store'];
-    $_SESSION['store'] = $order_num;
-  }else{
-    $order_num = "empty";
-  }
+  // if($_SESSION['store']){
+
+  //   $order_num = $_SESSION['store'];
+  //   $_SESSION['store'] = $order_num;
+
+  // }else{
+  //   $order_num = var_dump($_SESSION);
+  // }
 
   break;
 
   //post method
   case 'POST':
-
-  // global $order_num;
 
    //store prev number
   $_SESSION['store'] = $curr_num;
@@ -47,11 +46,6 @@ switch ($method) {
 
   //display new number
   $order_num = $curr_num;
-  // if($_POST['order_num']){
-  //     $order_num = $_POST['order_num'];
-  // }else{
-  //         $order_num = var_dump($_POST);
-  // }
 
   break;
 
