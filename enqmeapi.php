@@ -6,7 +6,7 @@ header("Access-Control-Allow-Origin: *");
 header("Content-Type: application/json");
 
 /* API  */
-global $order_num;
+global $order_num, $curr_num, $prev_num;
 
 if($_SESSION['curr_num']){
  $curr_num = $_SESSION['curr_num'];
