@@ -26,7 +26,7 @@ $method = $_SERVER['REQUEST_METHOD'];
 switch ($method) {
 
   case 'GET':
-  if(isset($curr_num)){
+  if(!empty($curr_num)){
     $order_num = $curr_num;
   }
   break;
