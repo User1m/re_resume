@@ -9,12 +9,12 @@ header("Content-Type: application/json");
 
 $order_num; $curr_num;
 
-
 //get current number stored in 'store'
 if(isset($_SESSION['store'])){
   $curr_num = $_SESSION['store'];
 }else{
   $curr_num = "1";
+  $_SESSION['store'] = $curr_num;
 }
 
 $method = $_SERVER['REQUEST_METHOD'];
