@@ -34,7 +34,7 @@ switch ($method) {
   $curr_num = htmlentities($_POST['order_num']);
 
   //store new number
-  $_SESSION['curr_num'] = $curr_num
+  $_SESSION['curr_num'] = $curr_num;
 
   //display new number
   $order_num = $curr_num;
