@@ -29,7 +29,7 @@ switch ($method) {
   if(!is_null($curr_num)){
     $order_num = $curr_num;
   }else{
-      var_dump($curr_num);
+    $order_num = "Null number";
   }
   break;
 
