@@ -22,14 +22,17 @@ $method = $_SERVER['REQUEST_METHOD'];
 
 switch ($method) {
 
+  //get method
   case 'GET':
-  if(!is_null($curr_num)){
+
+  if(!empty($curr_num)){
     $order_num = $curr_num;
   }else{
     $order_num = "Null number";
   }
   break;
 
+  //post method
   case 'POST':
   //store prev number
   $_SESSION['prev_num'] = $curr_num;
