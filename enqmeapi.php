@@ -10,8 +10,8 @@ header("Content-Type: application/json");
 if(isset($_SESSION['curr_num'])){
  $curr_num = $_SESSION['curr_num'];
 }else{
-  $_SESSION['curr_num'] = "1";
-  $curr_num = $_SESSION['curr_num'];
+  $curr_num = "1";
+  $_SESSION['curr_num'] = $curr_num;
 }
 
 if(isset($_SESSION['prev_num'])){
