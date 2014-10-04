@@ -6,6 +6,9 @@ header("Access-Control-Allow-Origin: *");
 header("Content-Type: application/json");
 
 /* API  */
+
+$prev_num, $curr_num;
+
 if(isset($_SESSION['curr_num'])){
  $curr_num = $_SESSION['curr_num'];
 }else{
@@ -20,8 +23,9 @@ if(isset($_SESSION['prev_num'])){
 $method = $_SERVER['REQUEST_METHOD'];
 
 switch ($method) {
+
   case 'GET':
-  if(!empty($curr_num)){
+  if(isset($curr_num)){
     $order_num = $curr_num;
   }
   break;
@@ -29,6 +33,8 @@ switch ($method) {
   case 'POST':
   //store prev number
   $_SESSION['prev_num'] = $curr_num;
+
+  var_dump($curr_num);
 
   //get new number
   $curr_num = htmlentities($_POST['order_num']);
