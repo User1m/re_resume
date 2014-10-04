@@ -7,17 +7,19 @@ header("Content-Type: application/json");
 
 /* API  */
 
-if(isset($_SESSION['curr_num'])){
+if($_SESSION['curr_num']){
  $curr_num = $_SESSION['curr_num'];
+ $_SESSION['curr_num'] = $curr_num;
 }else{
-  $curr_num = "1";
+  $curr_num = "curr";
   $_SESSION['curr_num'] = $curr_num;
 }
 
-if(isset($_SESSION['prev_num'])){
+if($_SESSION['prev_num']){
   $prev_num = $_SESSION['prev_num'];
+  $_SESSION['prev_num'] = $prev_num;
 }else{
-  $_SESSION['prev_num'] = "";
+  $_SESSION['prev_num'] = "prev";
 }
 
 $method = $_SERVER['REQUEST_METHOD'];
