@@ -25,7 +25,7 @@ switch ($method) {
   //get method
   case 'GET':
 
-  if(!empty($curr_num)){
+  if(empty($curr_num)){
     $order_num = $curr_num;
   }else{
     $order_num = "Null number";
