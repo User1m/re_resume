@@ -21,19 +21,11 @@ $method = $_SERVER['REQUEST_METHOD'];
 
 switch ($method) {
 
-  // //get method
-  // case 'GET':
-
-  // if($_SESSION['store']){
-
-  //   $order_num = $_SESSION['store'];
-  //   $_SESSION['store'] = $order_num;
-
-  // }else{
-  //   $order_num = var_dump($_SESSION);
-  // }
-
-  // break;
+  //get method
+  case 'GET':
+  //get curr number from store & display
+  $order_num = $curr_num;
+  break;
 
   //post method
   case 'POST':
