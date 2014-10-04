@@ -24,8 +24,12 @@ switch ($method) {
   //get method
   case 'GET':
   //get curr number from store & display
-  $order_num = $curr_num;
-  $_SESSION['store'] = $curr_num;
+  // $order_num = $curr_num;
+  // $_SESSION['store'] = $curr_num;
+  if(extension_loaded('apc') && ini_get('apc.enabled'))
+  {
+    $order_num = "APC enabled!";
+  }
   break;
 
   //post method
