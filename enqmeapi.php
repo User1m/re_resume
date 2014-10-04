@@ -48,7 +48,11 @@ switch ($method) {
   $curr_num = htmlentities($_POST['order_num']);
 
   //display new number
-  $order_num =  var_dump($curr_num);
+  if($_POST['order_num']){
+      $order_num = $_POST['order_num'];
+  }else{
+          $order_num = var_dump($_POST);
+  }
 
   break;
 
