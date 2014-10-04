@@ -40,6 +40,7 @@ switch ($method) {
 
   global $order_num;
 
+
    //store prev number
   $_SESSION['store'] = $curr_num;
 
@@ -47,8 +48,8 @@ switch ($method) {
   $curr_num = htmlentities($_POST['order_num']);
 
   //display new number
-  $order_num = $curr_num;
-  // var_dump($order_num);
+  $order_num =  var_dump($curr_num);
+
   break;
 
   default:
