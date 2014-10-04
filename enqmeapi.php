@@ -33,7 +33,7 @@ switch ($method) {
   //   $order_num = var_dump($_SESSION);
   // }
 
-  break;
+  // break;
 
   //post method
   case 'POST':
