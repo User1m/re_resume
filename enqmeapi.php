@@ -25,8 +25,7 @@ switch ($method) {
   case 'GET':
 
   if($_SESSION['store']){
-    global $order_num;
-
+    // global $order_num;
     $order_num = $_SESSION['store'];
     $_SESSION['store'] = $order_num;
   }else{
@@ -38,8 +37,7 @@ switch ($method) {
   //post method
   case 'POST':
 
-  global $order_num;
-
+  // global $order_num;
 
    //store prev number
   $_SESSION['store'] = $curr_num;
@@ -48,11 +46,12 @@ switch ($method) {
   $curr_num = htmlentities($_POST['order_num']);
 
   //display new number
-  if($_POST['order_num']){
-      $order_num = $_POST['order_num'];
-  }else{
-          $order_num = var_dump($_POST);
-  }
+  $order_num = $curr_num;
+  // if($_POST['order_num']){
+  //     $order_num = $_POST['order_num'];
+  // }else{
+  //         $order_num = var_dump($_POST);
+  // }
 
   break;
 
