@@ -5,9 +5,9 @@
   $(function($) {
     $(function() {
       jQuery('#loopedSlider').prepend("<a href='#' class='previous'>&lt;</a><a href='#' class='next'>&gt;</a>");
-      jQuery('#loopedSlider').loopedSlider({
-        autoHeight: 500
-      });
+      // jQuery('#loopedSlider').loopedSlider({
+      //   autoHeight: 500
+      // });
     });
   });
 
