@@ -1,52 +1,53 @@
-(function($) { 
-	"use strict";
-	
 (function($) {
-$(function() {
-jQuery('#loopedSlider').prepend("<a href='#' class='previous'>&lt;</a><a href='#' class='next'>&gt;</a>");
-	jQuery('#loopedSlider').loopedSlider({
-		autoHeight: 500
-	});
-});
-});
+	"use strict";
+
+
+  (function($) {
+    $(function() {
+      jQuery('#loopedSlider').prepend("<a href='#' class='previous'>&lt;</a><a href='#' class='next'>&gt;</a>");
+      jQuery('#loopedSlider').loopedSlider({
+        autoHeight: 500
+      });
+    });
+  })();
 
 
 
 // for banner height js
 var windowWidth = $(window).width();
-    var windowHeight =$(window).height();
-    $('.banner').css({'width':windowWidth ,'height':windowHeight -"60" });
-	
-	
+var windowHeight =$(window).height();
+$('.banner').css({'width':windowWidth ,'height':windowHeight -"60" });
+
+
 
 
 // for portfoli filter jquary
 $(window).load(function(){
-    var $container = $('.portfolioContainer');
+  var $container = $('.portfolioContainer');
+  $container.isotope({
+    filter: '*',
+    animationOptions: {
+      duration: 750,
+      easing: 'linear',
+      queue: false
+    }
+  });
+
+  $('.portfolioFilter a').click(function(){
+    $('.portfolioFilter .current').removeClass('current');
+    $(this).addClass('current');
+
+    var selector = $(this).attr('data-filter');
     $container.isotope({
-        filter: '*',
-        animationOptions: {
-            duration: 750,
-            easing: 'linear',
-            queue: false
-        }
+      filter: selector,
+      animationOptions: {
+        duration: 750,
+        easing: 'linear',
+        queue: false
+      }
     });
- 
-    $('.portfolioFilter a').click(function(){
-        $('.portfolioFilter .current').removeClass('current');
-        $(this).addClass('current');
- 
-        var selector = $(this).attr('data-filter');
-        $container.isotope({
-            filter: selector,
-            animationOptions: {
-                duration: 750,
-                easing: 'linear',
-                queue: false
-            }
-         });
-         return false;
-    }); 
+    return false;
+  });
 });
 
 
@@ -56,7 +57,7 @@ $(window).load(function(){
 jQuery(function($) {
 	var $chosenSheet,
 	$stylesheets = $( "a[id^=theme-]" );
-	
+
 	// run rlightbox
 	$( ".lb" ).rlightbox();
 	$( ".lb_title-overwritten" ).rlightbox({overwriteTitle: true});
@@ -72,21 +73,20 @@ $(document).ready(function(e) {
 var index=0;
 $(document).scroll(function(){
 	var top = $('.technical').height()-$(window).scrollTop();
-	console.log(top)
+	// console.log(top)
 	if(top<-300){
-		if(index==0){	
-			
+		if(index===0){
 			$('.chart').easyPieChart({
 				easing: 'easeOutBounce',
 				onStep: function(from, to, percent) {
 					$(this.el).find('.percent').text(Math.round(percent));
 				}
 			});
-			
+
 		}
 		index++;
 	}
-})
+});
 //console.log(nagativeValue)
 });
 
@@ -114,7 +114,7 @@ $(function() {
 
 // chart loding
 $(window).load(function() {
-	
+
 	var chart = window.chart = $('.chart').data('easyPieChart');
 	$('.js_update').on('click', function() {
 		chart.update(Math.random()*100);
