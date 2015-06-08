@@ -12,7 +12,7 @@
   <title>Claudius Mbemba's Homepage</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!--jquary min js-->
-  <script type="text/javascript" src="js/jquery.min.js" async></script>
+  <script type="text/javascript" src="js/jquery.min.js"></script>
   <script src="js/jquery.queryloader2.min.js" type="text/javascript" async></script>
   <script src="js/load.js" type="text/javascript" async></script>
 
@@ -26,6 +26,9 @@
   <!--google font style-->
   <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,600,700,800,300' rel='stylesheet' type='text/css'>
   <!--font-family: 'Open Sans', sans-serif;-->
+  <!--for portfoli lightbox -->
+  <link type="text/css" rel="stylesheet" id="theme" href="css/jquery-ui-1.8.16.custom.css">
+  <link type="text/css" rel="stylesheet" href="css/lightbox.min.css">
   <!-- font css style-->
   <link rel="stylesheet" href="css/font-awesome.css">
   <!--for slider style-->
@@ -409,13 +412,13 @@
             </li>
 
             <li class="hack col-xs-6 col-sm-4 col-md-3 col-lg-3">
-              <div class="lightCon"> <span class="hoverBox"> <span class="smallIcon"> <a rel="lightbox-demo" href="images/activity/big/sd_full.png" title="StrangerDanger Android app" class="zoom lb lb_warsaw1"><i class="fa fa-search fa-2x"></i></a> <a href="https://play.google.com/store/apps/details?id=claudiusmbemba.com.strangerdanger&hl=en" title="StrangerDanger" target="_blank" class="linKed"><i class="fa fa-link fa-2x"></i></i></a> </span> </span> <img src="images/activity/thumb/strangerdanger_450.jpg" alt="Boss" > </div>
+              <div class="lightCon"> <span class="hoverBox"> <span class="smallIcon"> <a rel="lightbox-demo" href="images/activity/big/sd_full.png" title="StrangerDanger Android App" class="zoom lb lb_warsaw1"><i class="fa fa-search fa-2x"></i></a> <a href="https://play.google.com/store/apps/details?id=claudiusmbemba.com.strangerdanger&hl=en" title="StrangerDanger" target="_blank" class="linKed"><i class="fa fa-link fa-2x"></i></i></a> </span> </span> <img src="images/activity/thumb/strangerdanger_450.jpg" alt="Boss" > </div>
             </li>
             <li class="hack col-xs-6 col-sm-4 col-md-3 col-lg-3">
               <div class="lightCon"> <span class="hoverBox"> <span class="smallIcon"> <a rel="lightbox-demo" href="images/activity/big/leapkey_450.jpg" title="Leapkey" class="zoom lb lb_warsaw1"><i class="fa fa-search fa-2x"></i></a> <a href="http://challengepost.com/software/leapkey" title="Leapkey" target="_blank" class="linKed"><i class="fa fa-link fa-2x"></i></i></a> </span> </span> <img src="images/activity/thumb/leapkey_450.jpg" alt="leapkey" > </div>
             </li>
             <li class="hack col-xs-6 col-sm-4 col-md-3 col-lg-3">
-              <div class="lightCon"> <span class="hoverBox"> <span class="smallIcon"> <a rel="lightbox-demo" href="images/activity/big/family_news.png" title="FamilyNews iOS app" class="zoom lb lb_warsaw1"><i class="fa fa-search fa-2x"></i></a> <a href="http://familynews.claudiusmbemba.com/" title="FamilyNews iOS App" target="_blank" class="linKed"><i class="fa fa-link fa-2x"></i></i></a> </span> </span> <img src="images/activity/thumb/family_news_450.jpg" alt="FamilyNews iOS app" > </div>
+              <div class="lightCon"> <span class="hoverBox"> <span class="smallIcon"> <a rel="lightbox-demo" href="images/activity/big/family_news.png" title="FamilyNews iOS App" class="zoom lb lb_warsaw1"><i class="fa fa-search fa-2x"></i></a> <a href="http://familynews.claudiusmbemba.com/" title="FamilyNews iOS App" target="_blank" class="linKed"><i class="fa fa-link fa-2x"></i></i></a> </span> </span> <img src="images/activity/thumb/family_news_450.jpg" alt="FamilyNews iOS app" > </div>
             </li>
             <li class="org col-xs-6 col-sm-4 col-md-3 col-lg-3">
               <div class="lightCon"> <span class="hoverBox"> <span class="smallIcon"> <a rel="lightbox-demo" href="images/activity/big/nscs.jpg" title="NSCS Member" class="zoom lb lb_warsaw1"><i class="fa fa-search fa-2x"></i></a> <a href="http://www.nscs.org/" title="Leapkey" target="_blank" class="linKed"><i class="fa fa-link fa-2x"></i></i></a> </span> </span> <img src="images/activity/thumb/nscs_450.jpg" alt="NSCS" > </div>
@@ -482,13 +485,11 @@
     <script type="text/javascript" src="js/modernizr.custom.26633.js" async></script>
     <script src="js/bootstrap.js" async></script>
     <script type="text/javascript" src="js/jquery.gridrotator.js" async></script>
-    <!--for custom jquary-->
-    <script src="js/custom.js" async></script>
     <!--for placeholder jquary-->
     <script type="text/javascript" src="js/jquery.placeholder.js" async></script>
     <!--for menu jquary-->
-    <script type="text/javascript" src="js/stickUp.js" async></script>
-    <script type="text/javascript" async>
+    <script type="text/javascript" src="js/stickUp.js"></script>
+    <script type="text/javascript">
       jQuery(function($) {
         $(document).ready( function() {
   //enabling stickUp on the '.navbar-wrapper' class
@@ -531,11 +532,10 @@
     </script>
     <!--for portfoli filter jquary-->
     <script src="js/jquery.isotope.js" type="text/javascript" async></script>
-    <!--for portfoli lightbox -->
-    <link type="text/css" rel="stylesheet" id="theme" href="css/jquery-ui-1.8.16.custom.css">
-    <link type="text/css" rel="stylesheet" href="css/lightbox.min.css">
     <script type="text/javascript" src="js/jquery.ui.widget.min.js" async></script>
     <script type="text/javascript" src="js/jquery.ui.rlightbox.js" async></script>
+    <!--for custom jquary-->
+    <script src="js/custom.js" async></script>
     <!--for skill chat jquary-->
     <script src="js/jquery.easing.min.js" async></script>
     <script src="js/jquery.easypiechart.js" async></script>
