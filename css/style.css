@@ -8,7 +8,7 @@
 	License: GNU General Public License version 3.0
 	License URI: http://www.gnu.org/licenses/gpl-3.0.html
 	Version: 1.0
-	
+
 	1. CSS Reset
 	2. Document Setup
 	3. Header Part
@@ -19,12 +19,12 @@
 	7. Technical Skills Style
 	8. Work Experience Style
 	9. Education Style
-	10. Protfolio Style
+	10. portfolio Style
 	11. Get in tuch Style
 	12. Footer Style
 	13. Responsive style
-		
-		
+
+
 ---------------------------------------------------------------------------------
 /* 1. CSS Reset
 -------------------------------------------------------------------------------*/
@@ -178,7 +178,7 @@ header{
 
 /*------------------------------------
 	3.1 Slide show background control
---------------------------------------*/ 
+--------------------------------------*/
 .cb-slideshow{
 	background:#1b1f2b;
 }
@@ -621,7 +621,7 @@ color:#00C8F8;
 	width:120px;
 	height:120px;
 	padding:40px 0 40px 0;
-	
+
 	-webkit-border-radius: 50%;
     border-radius: 50%;
 }
@@ -703,21 +703,21 @@ color:#00C8F8;
 
 
 /*----------------------------------------------------
- 10. Protfolio Style
+ 10. portfolio Style
 ------------------------------------------------------*/
-.protfolio{
+.portfolio{
 	background:#2bb3dd;
 }
-.protfolio .container{
+.portfolio .container{
 	padding-top:85px ;
 	padding-bottom:90px ;
 }
 
-.protfolio .heading p{
+.portfolio .heading p{
 	padding-bottom:41px;
 }
 
-.protfolio h4{
+.portfolio h4{
 	font-weight:700;
 }
 
@@ -747,7 +747,7 @@ color:#00C8F8;
 	display:block;
 	text-decoration:none;
 	border:solid 1px #95d9ee;
-	
+
 	transition-duration: 0.2s;
 	-webkit-transition-duration: 0.2s;
 }
@@ -755,7 +755,7 @@ color:#00C8F8;
 .portfolioFilter ul li a:hover{
 	border:solid 1px #15596e;
 	color:#15596e;
-	
+
 	transition-duration: 0.2s;
 	-webkit-transition-duration: 0.2s;
 }
@@ -799,20 +799,20 @@ span.hoverBox{
 	position: absolute;
 	left:0px;
 	bottom: 0px;
-	
+
 	transition-duration: 0.2s;
 	-webkit-transition-duration: 0.2s;
-	
+
 	background: rgba(0, 0, 0, 0.1);
-	
+
 }
 ul.portfolioContainer li:hover span.hoverBox{
 	visibility:visible;
 	left:0px;
 	bottom: 0px;
-	
+
 	background: rgba(0, 0, 0, 0.8);
-	
+
 	transition-duration: 0.2s;
 	-webkit-transition-duration: 0.2s;
 }
@@ -844,14 +844,14 @@ span.hoverBox .zoom{
 	line-height:50px;
 	display: block;
 	float: left;
-	
+
 	transition-duration: 0.2s;
 	-webkit-transition-duration: 0.2s;
 }
 ul.portfolioContainer li:hover span.hoverBox .zoom{
 	visibility:visible;
 	left:0;
-	
+
 	transition-duration: 0.2s;
 	-webkit-transition-duration: 0.2s;
 }
@@ -869,14 +869,14 @@ span.hoverBox .linKed{
 	line-height:52px;
 	display: block;
 	float: right;
-	
+
 	transition-duration: 0.2s;
 	-webkit-transition-duration: 0.2s;
 }
 ul.portfolioContainer li:hover span.hoverBox .linKed{
 	visibility:visible;
 	right:0%;
-	
+
 	transition-duration: 0.2s;
 	-webkit-transition-duration: 0.2s;
 }
@@ -904,7 +904,7 @@ ul.portfolioContainer li:hover span.hoverBox .linKed{
 }
 .isotope .isotope-item {
 	padding:0;
-	
+
     -webkit-transition-property: -webkit-transform, opacity;
     -moz-transition-property: -moz-transform, opacity;
     transition-property: transform, opacity;
@@ -939,7 +939,7 @@ ul.portfolioContainer li:hover span.hoverBox .linKed{
 	margin-left: -26% !important;
 	padding: 0px !important;
 	height:80px !important;
-	
+
 	display: block;
 	background-color: rgba(24,27,34,1);
 	filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr=#B0000000, EndColorStr=#B0000000);
@@ -1116,7 +1116,7 @@ ul.portfolioContainer li:hover span.hoverBox .linKed{
 	margin:0 6px;
 	width:42px !important;
 	height:42px !important;
-	
+
 	-webkit-border-radius: 50%;
     border-radius: 50%;
 }
@@ -1138,7 +1138,7 @@ ul.portfolioContainer li:hover span.hoverBox .linKed{
 
 
 
-	
+
 /*---------------------------------------------------------------------------------
  13. Responsive style
 -------------------------------------------------------------------------------*/
@@ -1149,7 +1149,7 @@ ul.portfolioContainer li:hover span.hoverBox .linKed{
 		height:140px;
 		padding-top:50px;
 	}
-	
+
 	.education .workYear{
 		padding-top:58px;
 	}
@@ -1161,7 +1161,7 @@ ul.portfolioContainer li:hover span.hoverBox .linKed{
 		padding-left:18px;
 		padding-right:18px;
 	}
-	
+
 	.bannerText{
 		padding-left:25px;
 		padding-right:25px;
@@ -1191,15 +1191,15 @@ ul.portfolioContainer li:hover span.hoverBox .linKed{
 	#header h3 span{
 		font-size: 16px;
 	}
-	
+
 	.abc{
 		width:100%;
 	}
-	
+
 	.navbar.navbar-inverse.navbar-static-top a {
 		padding-left: 17px;
 	}
-	
+
 }
 
 
@@ -1222,9 +1222,9 @@ ul.portfolioContainer li:hover span.hoverBox .linKed{
 	ul.portfolioContainer li.col-xs-6{
 		width:49%;
 		min-height: 85px;
-		
+
 	}
-	
+
 }
 
 
@@ -1265,8 +1265,8 @@ ul.portfolioContainer li:hover span.hoverBox .linKed{
 		-ms-transform: translate(0px, -70px); /* IE 9 */
 		-webkit-transform: translate(0px, -70px); /* Safari and Chrome */
 	}
-	
-	
+
+
 	.bannerText {
 		top: 25%;
 		padding-top:15px;
@@ -1301,27 +1301,27 @@ ul.portfolioContainer li:hover span.hoverBox .linKed{
 		min-height: 600px;
 		height: 100%;
 	}
-	
+
 	.item{
 		width: 19%;
 	}
 	.item p {
 		font-size: 36px;
 	}
-	
+
 	.aboutme img{
 		width:100%;
 	}
-	
+
 	ul.portfolioContainer li.col-xs-6{
 		width:100%;
 	}
-	
+
 	.bntDownload{
 		font-size: 13px;
 		padding: 16px 14px;
 	}
-	
+
 	.conForm textarea{
 		margin-bottom:20px;
 	}
@@ -1329,12 +1329,12 @@ ul.portfolioContainer li:hover span.hoverBox .linKed{
 		display:block;
 		padding:0 0 40px 0;
 	}
-	
+
 	.nameError,
 	.emailError{
 		left:0px;
 		top:0px;
-		
+
 	}
 }
 
