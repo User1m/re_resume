@@ -22,7 +22,7 @@ $('.banner').css({'width':windowWidth ,'height':windowHeight -"60" });
 
 // for portfoli filter jquary
 $(window).load(function(){
-  var $container = $('.portfolioContainer');
+  var $container = $('.activitiesContainer');
   $container.isotope({
     filter: '*',
     animationOptions: {
@@ -32,8 +32,8 @@ $(window).load(function(){
     }
   });
 
-  $('.portfolioFilter a').click(function(){
-    $('.portfolioFilter .current').removeClass('current');
+  $('.activitiesFilter a').click(function(){
+    $('.activitiesFilter .current').removeClass('current');
     $(this).addClass('current');
 
     var selector = $(this).attr('data-filter');
@@ -71,7 +71,7 @@ $(document).ready(function(e) {
 //var windowBottom = $(window).height();
 var index=0;
 $(document).scroll(function(){
-	var top = $('.technical').height()-$(window).scrollTop();
+	var top = $('.skills').height()-$(window).scrollTop();
 	// console.log(top)
 	if(top<-300){
 		if(index===0){

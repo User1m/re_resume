@@ -16,10 +16,10 @@
 	4. Background slider CSS style
 	5. Menu Style
 	6. About me Style
-	7. Technical Skills Style
+	7. Skills Style
 	8. Work Experience Style
 	9. Education Style
-	10. portfolio Style
+	10. activities Style
 	11. Get in tuch Style
 	12. Footer Style
 	13. Responsive style
@@ -432,14 +432,14 @@ header{
  6.	About me Style
 ------------------------------------------------------*/
 
-.aboutme{
+.about{
 /*	background:#00bdbd;
 */	background:#59C4C5;
 	color:#fff;
 	position:relative;
 	font-size: 50px;
 }
-.aboutme .container{
+.about .container{
 	padding-top:85px ;
 	padding-bottom:93px ;
 }
@@ -470,56 +470,56 @@ header{
 
 
 /*----------------------------------------------------
- 7.	Technical Skills Style
+ 7.	Skills Style
 ------------------------------------------------------*/
 .addspace{
 	height:60px;
 	background:#eeeeee;
 }
 
-.technical{
+.skills{
 	background:#eeeeee;
 	color:#474d5d;
 }
-.technical .container{
+.skills .container{
 	padding-top:85px ;
 	padding-bottom:69px ;
 }
-.technical .heading p{
+.skills .heading p{
 	padding-bottom:41px;
 }
 
-.technical p{
+.skills p{
 	color:#474d5d;
 }
-.technical h2{
+.skills h2{
 	color:#59C4C5;
 }
 
-.technical .skillsArea{
+.skills .skillsArea{
 	padding:0px;
 }
-.technical .skills{
+.skills .skills{
 	margin:0 auto;
 	margin-bottom:23px;
 	text-align:center;
 	padding:0px;
 	float:none;
 }
-.technical .skills p{
+.skills .skills p{
 	color:#84868d;
 	font-size:13px;
 	line-height:18px;
 	text-align:center;
 }
-.technical .skills img{
+.skills .skills img{
 	margin:0 auto;
 	margin-bottom:33px;
 	width:100%;
 	max-width:152px;
 }
 
-.technical .skills h4{
+.skills .skills h4{
 	font-weight:700;
 	text-transform:uppercase;
 }
@@ -568,40 +568,40 @@ header{
 /*----------------------------------------------------
  8.	Work Experience Style
 ------------------------------------------------------*/
-.exprience{
+.experience{
 /*	background:#fff;
 */
 background: #FFC33C;
 }
-.exprience .container{
+.experience .container{
 	padding-top:85px ;
 	padding-bottom:90px ;
 }
 
-.exprience h2{
+.experience h2{
 /*	color:#ff675f;
 */
 color:#00C8F8;
 }
-.exprience p{
+.experience p{
 	color:#84868d;
 	/*font-size:13px;*/
 	line-height:18px;
 }
 
-.exprience a{
+.experience a{
 	color:#84868d;
 }
 
-.exprience a:hover{
+.experience a:hover{
 	color:#00C8F8;
 }
 
-.exprience .heading p{
+.experience .heading p{
 	padding-bottom:41px;
 }
 
-.exprience h4{
+.experience h4{
 	font-weight:700;
 }
 
@@ -703,42 +703,42 @@ color:#00C8F8;
 
 
 /*----------------------------------------------------
- 10. portfolio Style
+ 10. activities Style
 ------------------------------------------------------*/
-.portfolio{
+.activities{
 	background:#2bb3dd;
 }
-.portfolio .container{
+.activities .container{
 	padding-top:85px ;
 	padding-bottom:90px ;
 }
 
-.portfolio .heading p{
+.activities .heading p{
 	padding-bottom:41px;
 }
 
-.portfolio h4{
+.activities h4{
 	font-weight:700;
 }
 
 
-.portfolioFilter{
+.activitiesFilter{
 	display:block;
 	margin:0 auto;
 	text-align: center;
 }
 
-.portfolioFilter ul{
+.activitiesFilter ul{
 	margin:0 auto;
 	text-align:center;
 	display:block;
 	margin-bottom:30px;
 }
-.portfolioFilter ul li{
+.activitiesFilter ul li{
 	display:inline-block;
 	margin:5px 5px;
 }
-.portfolioFilter ul li a{
+.activitiesFilter ul li a{
 	padding:16px 18px;
 	font-size:13px;
 	line-height:15px;
@@ -752,7 +752,7 @@ color:#00C8F8;
 	-webkit-transition-duration: 0.2s;
 }
 
-.portfolioFilter ul li a:hover{
+.activitiesFilter ul li a:hover{
 	border:solid 1px #15596e;
 	color:#15596e;
 
@@ -760,7 +760,7 @@ color:#00C8F8;
 	-webkit-transition-duration: 0.2s;
 }
 
-.portfolioFilter ul li a.current{
+.activitiesFilter ul li a.current{
 	background:#15596e;
 	border:solid 1px #15596e;
 	color:#fff;
@@ -768,25 +768,25 @@ color:#00C8F8;
 
 
 
-ul.portfolioContainer{
+ul.activitiesContainer{
 	display:block;
 	padding:0px;
 	list-style-type:none;
 }
-ul.portfolioContainer li{
+ul.activitiesContainer li{
 	display:block;
 	min-height:205px;
 	padding:0px;
 	margin:0px;
 	cursor:pointer;
 }
-ul.portfolioContainer li .lightCon{
+ul.activitiesContainer li .lightCon{
 	display:block;
 	margin:3px 3px 4px 4px;
 	position:relative;
 	overflow:hidden;
 }
-ul.portfolioContainer li img{
+ul.activitiesContainer li img{
 	 width:100%;
 	 height:auto;
 	 display:block;
@@ -806,7 +806,7 @@ span.hoverBox{
 	background: rgba(0, 0, 0, 0.1);
 
 }
-ul.portfolioContainer li:hover span.hoverBox{
+ul.activitiesContainer li:hover span.hoverBox{
 	visibility:visible;
 	left:0px;
 	bottom: 0px;
@@ -848,7 +848,7 @@ span.hoverBox .zoom{
 	transition-duration: 0.2s;
 	-webkit-transition-duration: 0.2s;
 }
-ul.portfolioContainer li:hover span.hoverBox .zoom{
+ul.activitiesContainer li:hover span.hoverBox .zoom{
 	visibility:visible;
 	left:0;
 
@@ -873,7 +873,7 @@ span.hoverBox .linKed{
 	transition-duration: 0.2s;
 	-webkit-transition-duration: 0.2s;
 }
-ul.portfolioContainer li:hover span.hoverBox .linKed{
+ul.activitiesContainer li:hover span.hoverBox .linKed{
 	visibility:visible;
 	right:0%;
 
@@ -1219,7 +1219,7 @@ ul.portfolioContainer li:hover span.hoverBox .linKed{
 		padding-right: 15px;
 		padding-left: 15px;
 	}
-	ul.portfolioContainer li.col-xs-6{
+	ul.activitiesContainer li.col-xs-6{
 		width:49%;
 		min-height: 85px;
 
@@ -1309,11 +1309,11 @@ ul.portfolioContainer li:hover span.hoverBox .linKed{
 		font-size: 36px;
 	}
 
-	.aboutme img{
+	.about img{
 		width:100%;
 	}
 
-	ul.portfolioContainer li.col-xs-6{
+	ul.activitiesContainer li.col-xs-6{
 		width:100%;
 	}
 
