@@ -8,6 +8,7 @@
 <!--<![endif]-->
 
 <head>
+  <meta name="google-site-verification" content="2I_-_BUFsu9fqOWUMxgXp89_Vp7_seZLRPrWobwaODk" />
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <title>Claudius Mbemba's Homepage</title>
