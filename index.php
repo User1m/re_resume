@@ -148,15 +148,15 @@
               <br/><br/>Presently I am a software engineer at Microsoft, under Office, helping to pioneer how we think about
               productivity on mobile in this new Cloud-first, Mobile-first era.
               <br/><br/>But the story (obviously) doesn’t end there. In fact, there's much, MUCH more to this story (for
-              example did I mention I'm a 1st generation immigrant?)...All of which I'd be happy to tell you over lunch or
+              example did I mention I'm a 1st generation immigrant?) <b>OR THAT I LEFT AN AMAZING JOB AT MICROSOFT TO PLUNGE
+              BACK INTO STARTUPS??? </b>(Checkout <a href="https://www.neucleans.com" target='_blank' rel="noopener noreferrer"><b>Neu</b></a> below)...All of which I'd be happy to tell you over lunch or
               coffee. Feel free to contact me below.</p>
           </div>
           <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-md-offset-1 col-lg-offset-1 text-center proPic">
             <img src="images/site/me_294x296.jpg" alt="" class="img-circle topmar">
             <a href="images/claudius-resume.pdf" target="blank" class="bntDownload">Download Printable Resume</a>
-            <br/><br/>
-            <br/><br/>
-            <img src="images/Microsoft-250x250.png" alt="Microsoft">
+            <br/>
+            <img src="images/neu-logo.png" alt="Neu" style="margin-top: 15px;">
           </div>
         </div>
       </div>
@@ -228,11 +228,42 @@
       <div class="container">
         <div class="heading">
           <h2>Work Experience</h2>
-          <p>My current & previous associations. Find more <a href="https://www.linkedin.com/in/mbembac" target="blank"><b>here</b></a></p>
+          <p>My current & previous associations. Find more <a href="https://www.linkedin.com/in/mbembac" target="blank"><b style="color: #21c4ef;">here</b></a></p>
         </div>
         <div class="row workDetails">
           <div class="col-xs-12 col-sm-3 col-md-2 col-lg-2">
-            <div class="workYear">Mar, 2016<br> Present
+            <div class="workYear">Feb, 2018<br> Present</div>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-md-10 col-lg-10 rightArea">
+            <div class="arrowpart"></div>
+            <div class="exCon">
+              <h4><a href="https://www.neucleans.com/" target="blank">Neu</a></h4>
+              <h5><em>Chief Technology Officer (CTO)</em></h5>
+              <p>Building the technological vision & platform for Neu - a tech enabled service providing hotel-grade turnovers for Airbnb/vacation rentals.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row workDetails">
+          <div class="col-xs-12 col-sm-3 col-md-2 col-lg-2">
+            <div class="workYear">Mar, 2017<br> Jul, 2018</div>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-md-10 col-lg-10 rightArea">
+            <div class="arrowpart"></div>
+            <div class="exCon">
+            <h4><a href="https://www.microsoft.com/" target="blank">Microsoft</a></h4>
+              <h5><em>Software Development Engineer II</em></h5>
+              <p>Customer facing engineer, helping unblock Microsoft partners and ISVs by coding with their dev teams on their toughest technological problems ranging from:
+              <br/><br/> Mobile apps, Azure cloud, Bots
+              <br/> Cortana skills, ML & AI, IoT
+              <br/> DevOps, Kubernetes, & Blockchain
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row workDetails">
+          <div class="col-xs-12 col-sm-3 col-md-2 col-lg-2">
+            <div class="workYear">Mar, 2016<br> Mar, 2017
             </div>
           </div>
           <div class="col-xs-12 col-sm-9 col-md-10 col-lg-10 rightArea">
@@ -243,37 +274,8 @@
               <p>Working under the Office Product Group (OPG) developing applications to solve the issue of productivity on
                 mobile.
                 <br/><br/>Shipped Version 3 of Outlook on Apple Watch / iOS.
-                <br/>Built Outlook for Alexa/Amazon Echo
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="row workDetails">
-          <div class="col-xs-12 col-sm-3 col-md-2 col-lg-2">
-            <div class="workYear">May, 2015<br> Aug, 2015</div>
-          </div>
-          <div class="col-xs-12 col-sm-9 col-md-10 col-lg-10 rightArea">
-            <div class="arrowpart"></div>
-            <div class="exCon">
-              <h4><a href="https://www.microsoft.com/" target="blank">Microsoft</a></h4>
-              <h5><em>SDE Intern on the Engineering Community & Online (ECO) team</em></h5>
-              <p>Built an internal health monitoring dashboard that would alert Service Engineers & Program Managers of outages
-                and service downtime so problems could be promptly resolved for our customers.</p>
-            </div>
-          </div>
-        </div>
-        <div class="row workDetails">
-          <div class="col-xs-12 col-sm-3 col-md-2 col-lg-2">
-            <div class="workYear">Sept, 2014<br> May, 2015</div>
-          </div>
-          <div class="col-xs-12 col-sm-9 col-md-10 col-lg-10 rightArea">
-            <div class="arrowpart"></div>
-            <div class="exCon">
-              <h4><a href="http://tco.osu.edu/" target="blank">OSU's Technology Commercialization Office</a></h4>
-              <h5><em>Shop Software Developer</em></h5>
-              <p> Built the MVP for SampleScan, an inventorying and reordering system for dermatologists. This system consisted
-                of an iOS mobile application (iPhone & iPad) with barcode scanning functionality, a SQL database, and a Ruby
-                on Rails backend system for the Administrator to monitor the data received, patients, and inventory.
+                <br/>Built Outlook for Alexa/Amazon Echo.
+                <br/>Worked on a V1 product, Office Mobile Hub for iOS.
               </p>
             </div>
           </div>
@@ -452,45 +454,41 @@
           </ul>
         </div>
         <ul class="activitiesContainer row">
-          <li class="hack col-xs-6 col-sm-4 col-md-3 col-lg-3">
-            <div class="lightCon"> <span class="hoverBox"> <span class="smallIcon"> <a rel="lightbox-demo" href="images/activity/big/liquory_450.jpg" title="Liquory - Hackathon Winner" class="zoom lb lb_warsaw1"><i class="fa fa-search fa-2x"></i></a> <a href="http://challengepost.com/software/liquory" title="Liquory" target="_blank" class="linKed"><i class="fa fa-link fa-2x"></i></a> </span>              </span> <img src="images/activity/thumb/liquory_450.jpg" alt="Liquory"> </div>
+        <li class="org col-xs-6 col-sm-4 col-md-3 col-lg-3">
+            <div class="lightCon"> <span class="hoverBox"> <span class="smallIcon"> <a rel="lightbox-demo" href="images/activity/big/microsoft.png" title="Microsoft" class="zoom lb lb_warsaw1"><i class="fa fa-search fa-2x"></i></a> <a href="https://www.microsoft.com" title="Microsoft" target="_blank" rel="noopener noreferrer" class="linKed" ><i class="fa fa-link fa-2x"></i></a> </span>              </span> <img src="images/activity/big/microsoft.png" alt="Microsoft"> </div>
           </li>
           <li class="eship col-xs-6 col-sm-4 col-md-3 col-lg-3">
-            <div class="lightCon"> <span class="hoverBox"> <span class="smallIcon"> <a rel="lightbox-demo" href="images/activity/big/fund.png" title="Fundstarter CEO" class="zoom lb lb_warsaw1"><i class="fa fa-search fa-2x"></i></a> <a href="http://fundstarter.co/" title="Fundstarter" target="_blank" class="linKed"><i class="fa fa-link fa-2x"></i></a> </span>              </span> <img src="images/activity/thumb/fund_450.jpg" alt="Fundstarter"> </div>
+            <div class="lightCon"> <span class="hoverBox"> <span class="smallIcon"> <a rel="lightbox-demo" href="images/activity/big/neu.png" title="Neu Cleans" class="zoom lb lb_warsaw1"><i class="fa fa-search fa-2x"></i></a> <a href="https://www.neucleans.com" title="Neu Cleans" target="_blank" rel="noopener noreferrer" class="linKed"><i class="fa fa-link fa-2x"></i></a> </span>              </span> <img src="images/activity/big/neu.png" alt="Neu Cleans"> </div>
+          </li>
+          <li class="eship col-xs-6 col-sm-4 col-md-3 col-lg-3">
+            <div class="lightCon"> <span class="hoverBox"> <span class="smallIcon"> <a rel="lightbox-demo" href="images/activity/big/fund.png" title="Fundstarter CEO" class="zoom lb lb_warsaw1"><i class="fa fa-search fa-2x"></i></a> <a href="http://fundstarter.co/" title="Fundstarter" target="_blank" rel="noopener noreferrer" class="linKed"><i class="fa fa-link fa-2x"></i></a> </span>              </span> <img src="images/activity/thumb/fund_450.jpg" alt="Fundstarter"> </div>
+          </li>
+          <li class="hack col-xs-6 col-sm-4 col-md-3 col-lg-3">
+            <div class="lightCon"> <span class="hoverBox"> <span class="smallIcon"> <a rel="lightbox-demo" href="images/activity/big/liquory_450.jpg" title="Liquory - Hackathon Winner" class="zoom lb lb_warsaw1"><i class="fa fa-search fa-2x"></i></a> <a href="http://challengepost.com/software/liquory" title="Liquory" target="_blank" rel="noopener noreferrer" class="linKed"><i class="fa fa-link fa-2x"></i></a> </span>              </span> <img src="images/activity/thumb/liquory_450.jpg" alt="Liquory"> </div>
           </li>
           <li class="org col-xs-6 col-sm-4 col-md-3 col-lg-3">
-            <div class="lightCon"> <span class="hoverBox"> <span class="smallIcon"> <a rel="lightbox-demo" href="images/activity/big/sphinx_450.jpg" title="Sphinx Vice President" class="zoom lb lb_warsaw1"><i class="fa fa-search fa-2x"></i></a> <a href="http://sphinx.org.ohio-state.edu/108.html" title="Sphinx" target="_blank" class="linKed"><i class="fa fa-link fa-2x"></i></a> </span>              </span> <img src="images/activity/thumb/sphinx_450.jpg" alt="Sphinx"> </div>
+            <div class="lightCon"> <span class="hoverBox"> <span class="smallIcon"> <a rel="lightbox-demo" href="images/activity/big/sphinx_450.jpg" title="Sphinx Vice President" class="zoom lb lb_warsaw1"><i class="fa fa-search fa-2x"></i></a> <a href="http://sphinx.org.ohio-state.edu/108.html" title="Sphinx" target="_blank" rel="noopener noreferrer" class="linKed"><i class="fa fa-link fa-2x"></i></a> </span>              </span> <img src="images/activity/thumb/sphinx_450.jpg" alt="Sphinx"> </div>
           </li>
           <li class="eship col-xs-6 col-sm-4 col-md-3 col-lg-3">
-            <div class="lightCon"> <span class="hoverBox"> <span class="smallIcon"> <a rel="lightbox-demo" href="images/activity/big/appkitchen_1.jpg" title="App.Kitchen CEO" class="zoom lb lb_warsaw1"><i class="fa fa-search fa-2x"></i></a> <a href="http://app.kitchen" title="AppKitchen" target="_blank" class="linKed"><i class="fa fa-link fa-2x"></i></a> </span>              </span> <img src="images/activity/thumb/appkitchen_450.jpg" alt="AppKitchen"> </div>
+            <div class="lightCon"> <span class="hoverBox"> <span class="smallIcon"> <a rel="lightbox-demo" href="images/activity/big/appkitchen_1.jpg" title="App.Kitchen CEO" class="zoom lb lb_warsaw1"><i class="fa fa-search fa-2x"></i></a> <a href="http://app.kitchen" title="AppKitchen" target="_blank" rel="noopener noreferrer" class="linKed"><i class="fa fa-link fa-2x"></i></a> </span>              </span> <img src="images/activity/thumb/appkitchen_450.jpg" alt="AppKitchen"> </div>
           </li>
           <li class="org eship col-xs-6 col-sm-4 col-md-3 col-lg-3">
-            <div class="lightCon"> <span class="hoverBox"> <span class="smallIcon"> <a rel="lightbox-demo" href="images/activity/big/bbc_450.jpg" title="BBC Member" class="zoom lb lb_warsaw1"><i class="fa fa-search fa-2x"></i></a> <a href="http://www.businessbuildersclub.org" title="BBC" target="_blank" class="linKed"><i class="fa fa-link fa-2x"></i></a> </span>              </span> <img src="images/activity/thumb/bbc_450.jpg" alt="BBC"> </div>
+            <div class="lightCon"> <span class="hoverBox"> <span class="smallIcon"> <a rel="lightbox-demo" href="images/activity/big/bbc_450.jpg" title="BBC Member" class="zoom lb lb_warsaw1"><i class="fa fa-search fa-2x"></i></a> <a href="http://www.businessbuildersclub.org" title="BBC" target="_blank" rel="noopener noreferrer" class="linKed"><i class="fa fa-link fa-2x"></i></a> </span>              </span> <img src="images/activity/thumb/bbc_450.jpg" alt="BBC"> </div>
           </li>
           <li class="org col-xs-6 col-sm-4 col-md-3 col-lg-3">
-            <div class="lightCon"> <span class="hoverBox"> <span class="smallIcon"> <a rel="lightbox-demo" href="images/activity/big/football.jpg" title="Varsity Defensive End [2011-13]" class="zoom lb lb_warsaw1"><i class="fa fa-search fa-2x"></i></a> <a href="http://www.ohiostatebuckeyes.com/sports/m-footbl/mtt/mbemba_claudius00.html" title="Ohio State Football" target="_blank" class="linKed"><i class="fa fa-link fa-2x"></i></a> </span>              </span> <img src="images/activity/thumb/football_450.jpg" alt="OSU Football"> </div>
-          </li>
-          <li class="eship org col-xs-6 col-sm-4 col-md-3 col-lg-3">
-            <div class="lightCon"> <span class="hoverBox"> <span class="smallIcon"> <a rel="lightbox-demo" href="images/activity/big/swcbus_450.jpg" title="Startup Weekend Organizer" class="zoom lb lb_warsaw1"><i class="fa fa-search fa-2x"></i></a> <a href="http://columbus.startupweekend.org/" title="Startup Weekend Columbus" target="_blank" class="linKed"><i class="fa fa-link fa-2x"></i></a> </span>              </span> <img src="images/activity/thumb/swcbus_450.jpg" alt="Startup Weekend"> </div>
+            <div class="lightCon"> <span class="hoverBox"> <span class="smallIcon"> <a rel="lightbox-demo" href="images/activity/big/football.jpg" title="Varsity Defensive End [2011-13]" class="zoom lb lb_warsaw1"><i class="fa fa-search fa-2x"></i></a> <a href="http://www.ohiostatebuckeyes.com/sports/m-footbl/mtt/mbemba_claudius00.html" title="Ohio State Football" target="_blank" rel="noopener noreferrer" class="linKed"><i class="fa fa-link fa-2x"></i></a> </span>              </span> <img src="images/activity/thumb/football_450.jpg" alt="OSU Football"> </div>
           </li>
           <li class="org col-xs-6 col-sm-4 col-md-3 col-lg-3">
-            <div class="lightCon"> <span class="hoverBox"> <span class="smallIcon"> <a rel="lightbox-demo" href="images/activity/big/cwdg.jpg" title="Collegiate Web Developers Group" class="zoom lb lb_warsaw1"><i class="fa fa-search fa-2x"></i></a> <a href="http://cwdg.herokuapp.com/" title="Collegiate Web Developers" target="_blank" class="linKed"><i class="fa fa-link fa-2x"></i></a> </span>              </span> <img src="images/activity/thumb/cwdg_450.jpg" alt="Collegiate Web Developers"> </div>
-          </li>
-
-          <li class="hack col-xs-6 col-sm-4 col-md-3 col-lg-3">
-            <div class="lightCon"> <span class="hoverBox"> <span class="smallIcon"> <a rel="lightbox-demo" href="images/activity/big/sd_full.png" title="StrangerDanger Android App" class="zoom lb lb_warsaw1"><i class="fa fa-search fa-2x"></i></a> <a href="https://play.google.com/store/apps/details?id=claudiusmbemba.com.strangerdanger&hl=en" title="StrangerDanger" target="_blank" class="linKed"><i class="fa fa-link fa-2x"></i></a> </span>              </span> <img src="images/activity/thumb/strangerdanger_450.jpg" alt="Boss"> </div>
+            <div class="lightCon"> <span class="hoverBox"> <span class="smallIcon"> <a rel="lightbox-demo" href="images/activity/big/swcbus_450.jpg" title="Startup Weekend Organizer" class="zoom lb lb_warsaw1"><i class="fa fa-search fa-2x"></i></a> <a href="http://columbus.startupweekend.org/" title="Startup Weekend Columbus" target="_blank" rel="noopener noreferrer" class="linKed"><i class="fa fa-link fa-2x"></i></a> </span>              </span> <img src="images/activity/thumb/swcbus_450.jpg" alt="Startup Weekend"> </div>
           </li>
           <li class="hack col-xs-6 col-sm-4 col-md-3 col-lg-3">
-            <div class="lightCon"> <span class="hoverBox"> <span class="smallIcon"> <a rel="lightbox-demo" href="images/activity/big/leapkey_450.jpg" title="Leapkey" class="zoom lb lb_warsaw1"><i class="fa fa-search fa-2x"></i></a> <a href="http://challengepost.com/software/leapkey" title="Leapkey" target="_blank" class="linKed"><i class="fa fa-link fa-2x"></i></a> </span>              </span> <img src="images/activity/thumb/leapkey_450.jpg" alt="leapkey"> </div>
+            <div class="lightCon"> <span class="hoverBox"> <span class="smallIcon"> <a rel="lightbox-demo" href="images/activity/big/sd_full.png" title="StrangerDanger Android App" class="zoom lb lb_warsaw1"><i class="fa fa-search fa-2x"></i></a> <a href="https://play.google.com/store/apps/details?id=claudiusmbemba.com.strangerdanger&hl=en" title="StrangerDanger" target="_blank" rel="noopener noreferrer" class="linKed"><i class="fa fa-link fa-2x"></i></a> </span>              </span> <img src="images/activity/thumb/strangerdanger_450.jpg" alt="Boss"> </div>
           </li>
           <li class="hack col-xs-6 col-sm-4 col-md-3 col-lg-3">
-            <div class="lightCon"> <span class="hoverBox"> <span class="smallIcon"> <a rel="lightbox-demo" href="images/activity/big/family_news.png" title="FamilyNews iOS App" class="zoom lb lb_warsaw1"><i class="fa fa-search fa-2x"></i></a> <a href="http://familynews.claudiusmbemba.com/" title="FamilyNews iOS App" target="_blank" class="linKed"><i class="fa fa-link fa-2x"></i></a> </span>              </span> <img src="images/activity/thumb/family_news_450.jpg" alt="FamilyNews iOS app"> </div>
-          </li>
-          <li class="org col-xs-6 col-sm-4 col-md-3 col-lg-3">
-            <div class="lightCon"> <span class="hoverBox"> <span class="smallIcon"> <a rel="lightbox-demo" href="images/activity/big/nscs.jpg" title="NSCS Member" class="zoom lb lb_warsaw1"><i class="fa fa-search fa-2x"></i></a> <a href="http://www.nscs.org/" title="Leapkey" target="_blank" class="linKed"><i class="fa fa-link fa-2x"></i></a> </span>              </span> <img src="images/activity/thumb/nscs_450.jpg" alt="NSCS"> </div>
+            <div class="lightCon"> <span class="hoverBox"> <span class="smallIcon"> <a rel="lightbox-demo" href="images/activity/big/leapkey_450.jpg" title="Leapkey" class="zoom lb lb_warsaw1"><i class="fa fa-search fa-2x"></i></a> <a href="http://challengepost.com/software/leapkey" title="Leapkey" target="_blank" rel="noopener noreferrer" class="linKed"><i class="fa fa-link fa-2x"></i></a> </span>              </span> <img src="images/activity/thumb/leapkey_450.jpg" alt="leapkey"> </div>
           </li>
           <li class="hack col-xs-6 col-sm-4 col-md-3 col-lg-3">
-            <div class="lightCon"> <span class="hoverBox"> <span class="smallIcon"> <a rel="lightbox-demo" href="images/activity/big/useless.png" title="UselessFacts App" class="zoom lb lb_warsaw1"><i class="fa fa-search fa-2x"></i></a> <a href="https://itunes.apple.com/us/app/uselessfactsapp/id1016268948?ls=1&mt=8" title="UselessFacts App" target="_blank" class="linKed"><i class="fa fa-link fa-2x"></i></a> </span>              </span> <img src="images/activity/thumb/useless_450.png" alt="NSCS"> </div>
+            <div class="lightCon"> <span class="hoverBox"> <span class="smallIcon"> <a rel="lightbox-demo" href="images/activity/big/family_news.png" title="FamilyNews iOS App" class="zoom lb lb_warsaw1"><i class="fa fa-search fa-2x"></i></a> <a href="http://familynews.claudiusmbemba.com/" title="FamilyNews iOS App" target="_blank" rel="noopener noreferrer" class="linKed"><i class="fa fa-link fa-2x"></i></a> </span>              </span> <img src="images/activity/thumb/family_news_450.jpg" alt="FamilyNews iOS app"> </div>
           </li>
         </ul>
       </div>
@@ -523,13 +521,14 @@
         <div class="col-xs-12 col-sm-9 col-md-8 col-lg-8 conForm">
           <h4>Shoot a message!</h4>
           <div id="message"></div>
-          <form method="post" action="php/contact.php" name="cform" id="cform">
+          <!-- <form method="post" action="php/contact.php" name="cform" id="cform"> -->
             <input name="name" id="name" type="text" class="col-xs-12 col-sm-6 col-md-6 col-lg-6" placeholder="Your name...">
             <input name="email" id="email" type="email" class=" col-xs-12 col-sm-6 col-md-6 col-lg-6 noMarr" placeholder="Your email...">
             <textarea name="comments" id="comments" class="col-xs-12 col-sm-12 col-md-12 col-lg-12" placeholder="Your message..."></textarea>
-            <input type="submit" id="submit" name="send" class="submitBnt" value="Send message">
+            <input type="submit" onclick="mailer()" id="submit" name="send" class="submitBnt" value="Send message">
+            <!-- <input type="submit" id="submit" name="send" class="submitBnt" value="Send message"> -->
             <div id="simple-msg"></div>
-          </form>
+          <!-- </form> -->
         </div>
         <!--contact form end-->
       </div>
@@ -552,6 +551,20 @@
   </div>
   <!-- condensed /minified of the js files below -->
   <script src="js/script.js"></script>
+  <script>
+    function mailer(){
+    var email = document.getElementById("email").value,
+      name = document.getElementById("name").value,
+      comments = document.getElementById("comments").value,
+      new_window = window.open('mailto:hi@claudiusmbemba.com,'+email+'?subject=Hi from '+name+' - via claudiusmbemba.com&body='+comments);
+      setTimeout(() => {
+        new_window.close();
+        document.getElementById("email").value = '';
+        document.getElementById("name").value = '';
+        document.getElementById("comments").value = '';
+      }, 1000);
+    }
+  </script>
   <!--wrapper end-->
   <!--modernizr js-->
   <!--   // <script type="text/javascript" src="js/modernizr.custom.26633.js" ></script> -->

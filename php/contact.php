@@ -49,7 +49,6 @@ $address = "mbembac@gmail.com";
 
 $e_subject = 'You have been contacted by ' . $name . ' via claudiusmbemba.com.';
 
-
 // Configuration option.
 // You can change this if you feel that you need to.
 // Developers, you may wish to add more fields to the form, in which case you must be sure to add them here.
@@ -65,8 +64,9 @@ $headers .= "Reply-To: $email" . PHP_EOL;
 $headers .= "MIME-Version: 1.0" . PHP_EOL;
 $headers .= "Content-type: text/plain; charset=utf-8" . PHP_EOL;
 $headers .= "Content-Transfer-Encoding: quoted-printable" . PHP_EOL;
+$headers .= 'X-Mailer: PHP/' . phpversion();
 
-if(mail($address, $e_subject, $msg, $headers)) {
+if($mail->send()) {
 
 	// Email has sent successfully, echo a success page.
 
@@ -82,3 +82,5 @@ if(mail($address, $e_subject, $msg, $headers)) {
 	echo 'ERROR!';
 
 }
+
+?>
