@@ -1055,7 +1055,7 @@ ul.activitiesContainer li:hover span.hoverBox .linKed{
 }
 
 
-.conForm .submitBnt{
+.conForm .submitBtn{
 	background:#ff675f;
 	font-family: 'Open Sans', sans-serif;
 	color:#fff;
@@ -1065,7 +1065,7 @@ ul.activitiesContainer li:hover span.hoverBox .linKed{
 	float:right;
 	margin:0px;
 }
-.conForm .submitBnt:hover{
+.conForm .submitBtn:hover{
 	background:#f5534b;
 }
 

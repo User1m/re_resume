@@ -1,0 +1,19 @@
+# FROM richarvey/nginx-php-fpm
+# EXPOSE 80
+# COPY /re_resume /var/www/html
+# ADD v3.conf /etc/nginx/sites-available/default.conf
+# # RUN mkdir -p /etc/nginx/cert/
+
+FROM node:9
+WORKDIR /workdir/app
+RUN curl -o- -L https://yarnpkg.com/install.sh | bash || true
+ENV NODE_ENV developement
+COPY package.json /workdir/app/
+WORKDIR /workdir/
+RUN ln -s /workdir/app/package.json /workdir/package.json
+RUN yarn install
+ENV PATH=/workdir/node_modules/.bin/:$PATH
+WORKDIR /workdir/app
+ENV PORT 8082
+EXPOSE 8082
+CMD bash
